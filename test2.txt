@@ -1,0 +1,32 @@
+Data Split:
+
+Training: 50000
+Validation:7500
+Test:2500
+
+Test2:
+sj_attempt2.ipynb
+
+num_epochs=180 #Number of Epochs
+lr=0.1  #Initial Learning Rate
+batch_size=64 #Batch Size
+N=4 #Number of Residual Layers
+B = [2,2,2,2] #B[i] - Residual blocks in Residual layer i.Each Residual Block contains 2 Convolution layers
+C = [32,64,128,256] # C[i] - Channels in Residual layer i
+F = [3,3,3,3] # Conv. Kernel size in Residual layer i.
+K = [1,1,1,1] #Skip connection kernel size in Residual Layer i
+P = 4 # Average pool kernel size
+
+
+criterion = nn.CrossEntropyLoss()
+optimizer = torch.optim.SGD(model.parameters(), lr=0.1,momentum=0.9,weight_decay=0.0001,nesterov=True)
+scheduler = torch.optim.lr_scheduler.MultiStepLR(optimizer, milestones=[90,135],gamma=0.1)
+
+import sys
+sys.path.insert(0, '/content/')
+torch.save(model.state_dict(), 'saved_data/model2.pt')
+torch.save(optimizer.state_dict(), 'saved_data/optimizer2.pt')
+torch.save(scheduler.state_dict(), 'saved_data/scheduler2.pt')
+
+
+Test Accuracy:94.28%
