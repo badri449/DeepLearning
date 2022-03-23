@@ -11,7 +11,10 @@
 * Utilizing Opimizer such as  SGD, ADAM, and etc 
 
 
-## It contains 
+## Mini-Project1 directory contains 
 * project1_model.py
 * project1_model.pt
+* optimizer.pt
+* scheduler.pt
+* test2.txt
 * ipynb file for visualization 
