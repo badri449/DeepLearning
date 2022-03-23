@@ -17,4 +17,4 @@
 * optimizer.pt
 * scheduler.pt
 * test2.txt
-* ipynb file for visualization 
+* mini_project.ipynb
