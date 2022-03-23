@@ -1,8 +1,8 @@
 # NYU ECE-GY 7123 Deep Learning Mini project 1 with ResNet 
 
-## In this project, We design a ResNet architecture to maximize accuracy on the
-CIFAR-10 dataset under a constraint on parameter count.
+##Residual  Network Design 
 
+* In this project, We design a ResNet architecture to maximize accuracy on the CIFAR-10 dataset under a constraint on parameter count.
 * used NYU HPC for GPU inquiring calculation 
 * Hyper-parameter tuning
 * Data Augumentation
