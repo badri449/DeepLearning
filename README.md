@@ -11,7 +11,7 @@
 * Utilizing Opimizer such as  SGD, ADAM, and etc 
 
 
-## File contains 
+## It contains 
 * project1_model.py
 * project1_model.pt
 * ipynb file for visualization 
