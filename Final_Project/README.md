@@ -43,9 +43,10 @@ There is a chance you encounter an error then you have to unzip these two files
 
 
 
-## We saved the sample output and please see Synthetized Spectrogram below:
-Sample outfiles: 
+## We saved the sample output 
+Sample output files: 
 * The cat is jumping on the ball and making silly noises.wav
 * This is Badri, Swapan, and Geonwoo and this is a sample output file we generated using fast speech .wav
 
+Synthetized Spectrogram picture for The Cat is jumping file below:
 ![The cat is jumping on the ball and making silly noises](https://user-images.githubusercontent.com/71423299/164358203-ff250893-661f-4f28-9d37-2c1f6161fa0f.png)
