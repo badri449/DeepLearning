@@ -18,3 +18,8 @@
 * scheduler.pt
 * test2.txt
 * mini_project.ipynb
+
+
+## Final-Project2 directory contains 
+* readme.txt
+* miniproject_2.ipynb
