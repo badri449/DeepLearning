@@ -28,7 +28,11 @@ c. Create directories on FastSpeech2 to save output generated from running model
 FastSpeech2/output/result/LJSpeech
 ```
 
-d. Run the model
+
+f. You have to download [the pretrained models](https://drive.google.com/drive/folders/1DOhZGlTLMbbAAFZmZGDdc77kz1PloS7F?usp=sharing) and put them in output/ckpt/LJSpeech/
+* we chose LSpeech_900000.zip
+
+e. Run the model
 
 ```
 !python3 synthesize.py --text "This is Badri, Swapan, and Geonwoo and this is a sample output file we generated using fast speech  " --restore_step 900000 --mode single -p config/LJSpeech/preprocess.yaml -m config/LJSpeech/model.yaml -t config/LJSpeech/train.yaml
