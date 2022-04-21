@@ -1,6 +1,6 @@
 This is a PyTorch implementation of Microsoft's text-to-speech system FastSpeech 2: Fast and High-Quality End-to-End Text to Speech. This project is based on xcmyz's implementation of FastSpeech. 
 
-Currently We are working on 
+Currently we are working on 
 1. How the code is working 
 2. If the code generate desirable output 
 
@@ -37,10 +37,15 @@ e. Run the model
 ```
 !python3 synthesize.py --text "This is Badri, Swapan, and Geonwoo and this is a sample output file we generated using fast speech  " --restore_step 900000 --mode single -p config/LJSpeech/preprocess.yaml -m config/LJSpeech/model.yaml -t config/LJSpeech/train.yaml
 ```
+There is a chance you encounter an error then you have to unzip these two files 
+
+![image](https://user-images.githubusercontent.com/71423299/164359823-6d5604c6-9e0e-4f46-a696-2cf400bcd492.png)
+
+
 
 ## We saved the sample output and please see Synthetized Spectrogram below:
 Sample outfiles: 
-* The cat jumping on the ball...wav 
+* The cat is jumping on the ball and making silly noises.wav
 * This is Badri, Swapan, and Geonwoo and this is a sample output file we generated using fast speech .wav
 
 ![The cat is jumping on the ball and making silly noises](https://user-images.githubusercontent.com/71423299/164358203-ff250893-661f-4f28-9d37-2c1f6161fa0f.png)
