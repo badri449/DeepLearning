@@ -2,7 +2,7 @@ This is a PyTorch implementation of Microsoft's text-to-speech system FastSpeech
 
 Currently we are working on 
 * How the code is working 
-* If the code generate desirable output 
+* If the code can generate desirable output 
 
 a. First download git and install requirement.txt
 
