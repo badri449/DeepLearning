@@ -29,7 +29,7 @@ FastSpeech2/output/result/LJSpeech
 ```
 
 
-f. You have to download [the pretrained models](https://drive.google.com/drive/folders/1DOhZGlTLMbbAAFZmZGDdc77kz1PloS7F?usp=sharing) and put them in output/ckpt/LJSpeech/
+d. You have to download [the pretrained models](https://drive.google.com/drive/folders/1DOhZGlTLMbbAAFZmZGDdc77kz1PloS7F?usp=sharing) and put them in output/ckpt/LJSpeech/
 * we chose LSpeech_900000.zip
 
 e. Run the model
