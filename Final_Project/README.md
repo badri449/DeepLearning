@@ -1,8 +1,8 @@
 This is a PyTorch implementation of Microsoft's text-to-speech system FastSpeech 2: Fast and High-Quality End-to-End Text to Speech. This project is based on xcmyz's implementation of FastSpeech. 
 
 Currently we are working on 
-1. How the code is working 
-2. If the code generate desirable output 
+* How the code is working 
+* If the code generate desirable output 
 
 a. First download git and install requirement.txt
 
