@@ -1,6 +1,6 @@
 We changed our direction from our mini-project 2, which was about Fast-speech2.
 
-In mini-project3, Tacotron2 is our project. This repository includes following files in a table below:
+In mini-project3, Tacotron2 is our main subject. This repository includes following files in a table below:
 
 
 File Name | Description
