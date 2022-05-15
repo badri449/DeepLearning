@@ -8,6 +8,7 @@ File Name | Description
 mini_project3.ipynb | Main code file 
 tacotron2_layer.py  | Where we updated hyper-param
 tacotron2_model.py  | model.py file
+encode_model2.wav   | Modified encode model sample output file
 
 
 
