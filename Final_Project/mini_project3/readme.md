@@ -13,7 +13,7 @@ encode_model2.wav   | Modified encode model sample output file
 
 <h1> Instruction </h1>
 
-We used googlecolab for this project so it could be different if you are using a different environment. <br />
+We used googlecolab for this project. Any other environment could result in not working. <br />
 
 a. First download entire repository from github below and install requirement.txt
 
