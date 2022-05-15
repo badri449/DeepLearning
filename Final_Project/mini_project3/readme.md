@@ -5,8 +5,9 @@ In mini-project3, Tacotron2 is our project. This repository includes following f
 
 File Name | Description
 ------------- | -------------
-mini_project3.ipynb  | Content Cell
-Content Cell  | Content Cell
+mini_project3.ipynb | Main code file 
+tacotron2_layer.py  | Where we updated hyper-param
+tacotron2_model.py  | model.py file
 
 
 
@@ -42,21 +43,10 @@ e. saving output
 !tts --text "3 epochs yay" \
       --model_path "/content/drive/MyDrive/TTS/recipes/ljspeech/tacotron2-DDC/run-May-14-2022_09+02PM-0000000/best_model_6090.pth" \
       --config_path "/content/drive/MyDrive/TTS/recipes/ljspeech/tacotron2-DDC/run-May-14-2022_09+02PM-0000000/config.json" \
-      --out_path "/content/drive/MyDrive/output/model2.wav"
+      --out_path "/content/drive/MyDrive/output/model##.wav"
 ```
 
 
 
 
 
-![image](https://user-images.githubusercontent.com/71423299/164359823-6d5604c6-9e0e-4f46-a696-2cf400bcd492.png)
-
-
-
-## We saved the sample output 
-Sample output files: 
-* The cat is jumping on the ball and making silly noises.wav
-* This is Badri, Swapan, and Geonwoo and this is a sample output file we generated using fast speech .wav
-
-Synthetized Spectrogram picture for The Cat is jumping file below:
-![The cat is jumping on the ball and making silly noises](https://user-images.githubusercontent.com/71423299/164358203-ff250893-661f-4f28-9d37-2c1f6161fa0f.png)
