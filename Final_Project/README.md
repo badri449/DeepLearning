@@ -1,3 +1,5 @@
+This mini-project 2 repository. For mini-project3, Please go to mini_project3 directory. 
+
 This is a PyTorch implementation of Microsoft's text-to-speech system FastSpeech 2: Fast and High-Quality End-to-End Text to Speech. This project is based on xcmyz's implementation of FastSpeech. 
 
 Currently we are working on 
