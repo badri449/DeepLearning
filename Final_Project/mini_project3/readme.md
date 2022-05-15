@@ -11,8 +11,11 @@ tacotron2_model.py  | model.py file
 encode_model2.wav   | Modified encode model sample output file
 
 
+<h1> Instruction </h1>
 
-a. First download git and install requirement.txt
+We used googlecolab for this project so it could be different if you are using a different environment. <br />
+
+a. First download entire repository from github below and install requirement.txt
 
 
 ```
@@ -41,6 +44,8 @@ d. Run the pretrained model
 e. saving output
 
 ```
+##In order to use tts command line, you have to install TTS library 
+!pip install TTS
 !tts --text "3 epochs yay" \
       --model_path "/content/drive/MyDrive/TTS/recipes/ljspeech/tacotron2-DDC/run-May-14-2022_09+02PM-0000000/best_model_6090.pth" \
       --config_path "/content/drive/MyDrive/TTS/recipes/ljspeech/tacotron2-DDC/run-May-14-2022_09+02PM-0000000/config.json" \
