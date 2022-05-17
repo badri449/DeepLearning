@@ -46,8 +46,8 @@ d. Train our customized model using train.py file
 e. saving output from our trained model
 
 ```
-##In order to use tts command line, you have to install TTS library. This must be done after the training customized model. Otherwise, TTS library would automatically 
-use default model to train instead of the customized one.
+##In order to use tts command line, you have to install TTS library. This must be done after you training a customized model. Otherwise, TTS library would automatically use default model to train instead of the customized one.##
+
 !pip install TTS
 !tts --text "3 epochs yay" \
       --model_path "/content/drive/MyDrive/TTS/recipes/ljspeech/tacotron2-DDC/run-May-14-2022_09+02PM-0000000/best_model_6090.pth" \
