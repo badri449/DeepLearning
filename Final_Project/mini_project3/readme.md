@@ -12,6 +12,9 @@ encode_model2.wav   | Modified encode model sample output file
 train_tacotron_ddc.py | Tacotron2 train file
 Model | This directory includes sample train log.txt file 
 
+<h3> Tacotron2 Architecture</h3>
+![Tacotron2 Architecture](https://3.bp.blogspot.com/-bjFYjr2Po2U/WjlNgrInWZI/AAAAAAAACSQ/tfdMAidI8O8EULlJgYoqRWWE9UGIENAkgCLcBGAs/s1600/image1.png)
+
 
 <h1> Instruction </h1>
 
