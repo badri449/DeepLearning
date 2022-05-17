@@ -39,14 +39,15 @@ b. install relevant packages
 c. The dataset can be found at https://data.keithito.com/data/speech/LJSpeech-1.1.tar.bz2 : We will skip the process of how to unzip the file as it was already mentioned in mini-project2. 
 
 
-d. Train our model using train.py file
+d. Train our customized model using train.py file
 ```
 !CUDA_VISIBLE_DEVICES="0" python /content/drive/MyDrive/TTS/train_tacotron_ddc.py
 ```
 e. saving output from our trained model
 
 ```
-##In order to use tts command line, you have to install TTS library 
+##In order to use tts command line, you have to install TTS library. This must be done after the training customized model. Otherwise, TTS library would automatically 
+use default model to train instead of the customized one.
 !pip install TTS
 !tts --text "3 epochs yay" \
       --model_path "/content/drive/MyDrive/TTS/recipes/ljspeech/tacotron2-DDC/run-May-14-2022_09+02PM-0000000/best_model_6090.pth" \
