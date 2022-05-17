@@ -39,11 +39,11 @@ b. install relevant packages
 c. The dataset can be found at https://data.keithito.com/data/speech/LJSpeech-1.1.tar.bz2 : We will skip the process of how to unzip the file as it was already mentioned in mini-project2. 
 
 
-d. Run the pretrained model
+d. Train our model using train.py file
 ```
 !CUDA_VISIBLE_DEVICES="0" python /content/drive/MyDrive/TTS/train_tacotron_ddc.py
 ```
-e. saving output
+e. saving output from our trained model
 
 ```
 ##In order to use tts command line, you have to install TTS library 
