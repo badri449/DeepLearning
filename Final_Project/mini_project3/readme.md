@@ -15,7 +15,7 @@ Model | This directory includes sample train log.txt file
 
 <h1> Instruction </h1>
 
-We used googlecolab for this project. Any other environment could result in not working. <br />
+We used googlecolab for this project. Any other environment can encouter in errors/incompatibility issue. <br />
 
 a. First download entire repository from github below and install requirement.txt
 
